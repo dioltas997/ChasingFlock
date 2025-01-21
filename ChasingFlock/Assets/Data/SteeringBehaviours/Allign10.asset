@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b12d8dc9d9ed2d2469ba4456cc9ba979, type: 3}
+  m_Name: Allign10
+  m_EditorClassIdentifier: 
+  character: {fileID: 11400000, guid: b5448ae72e55b80438629e7b6a5291c5, type: 2}
+  target: {fileID: 11400000, guid: 67d2dd81b2f731448b26215bc3c4dc8c, type: 2}
+  maxAngularAcceleration: 10
+  targetRadius: 5
+  slowRadius: 45
+  timeToTarget: 0.5
